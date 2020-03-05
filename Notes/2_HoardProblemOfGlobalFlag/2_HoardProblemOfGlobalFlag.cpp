@@ -2,7 +2,8 @@
 
 Timeout timeout;
 
-bool flag = true;
+bool flag = true; // solution is to change type of it from 'bool' to 'volatile bool'
+
 void changeFlag(){
     flag = false;
 }
